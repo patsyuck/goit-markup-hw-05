@@ -696,7 +696,16 @@ footer address {
     right: 8px;
     width: 30px;
     height: 30px;
-    background-image: url(../images/icons/close.svg);
+    background-color: #FFFFFF;
+    /*background-image: url(../images/icons/close.svg);*/
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.x {
+    width: 11px;
+    height: 11px;
+    fill: #000000;
 }
 
 .is-hidden {
